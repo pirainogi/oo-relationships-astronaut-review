@@ -1,8 +1,8 @@
 class Astronaut
     @@all = []
-    attr_reader :name, 
-    attr_accessor :age, :specialty
-    def initialize(name, age, specialty = nil)
+    attr_reader :name
+    attr_accessor :specialty, :age
+    def initialize (name, age, specialty)
         @name = name
         @specialty = specialty
         @age = age
